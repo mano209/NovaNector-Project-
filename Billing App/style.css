@@ -1,0 +1,452 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    /* font-size: 20px;
+    font-weight: 700;
+    line-height: 29.38px;
+    text-align: left; */
+}
+a{
+    text-decoration: none;
+    color: rgba(41, 134, 89, 1);
+}
+body{
+    margin: auto;
+    font-family: Verdana;
+    background-color: rgba(255, 255, 255, 1);
+    /* overflow: hidden; */
+}
+.nav-sec{
+    background-color: rgba(41, 134, 89, 1);
+}
+.nav-sec{
+    /* margin: auto; */
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    font-weight: 700;
+    /* margin: auto; */
+}
+span{
+    font-weight: 300;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+#min{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.para{
+    padding-right: 50px;
+    margin: 0 10px;
+}
+.para a{
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    padding: 10px;
+    margin-right: 10px;
+}
+/* ---------------------Header Section----------------------- */
+.head-sec{
+    padding: 10px;
+    max-width: 80%;
+    margin:50px auto;
+    position: relative;
+}
+.head{
+    color: rgba(41, 134, 89, 1);
+    
+}
+#heading{
+    color: rgba(41, 134, 89, 1);
+}
+
+/* .image img{
+    width: 100%;
+    height: 100vh;
+} */
+.login{
+    display: flex;
+    justify-content: end;
+}
+.head h1{
+    font-size: 48px;
+    font-weight: 500;
+    font-family:Verdana;
+    border-bottom: 0;
+    border-right: 0;
+    margin-bottom: 8px;
+    position: absolute;
+}
+.head h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 16%;
+    height: 3px;
+    background: rgba(41, 134, 89, 1);
+}
+.head-sec .head p{
+    position: absolute;
+    top: 70px;
+    font-weight: 600;
+}
+.form-sec .form-head{
+    position: absolute;
+    top: 110px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.form-sec .form-head h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+}
+.form-sec #para{
+    position: relative;
+    top: 30%;
+}
+.form-sec .form-head p{
+    position: relative;
+    bottom: 22px;
+    left: 100%;
+    color: rgba(79, 79, 79, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-sec .form-head p i{
+    color: rgba(41, 134, 89, 1);
+    position: relative;
+    left: 10px;
+}
+.form-sec form{
+    width: 320px;
+    position: absolute;
+    top: 180px;
+    margin: auto;
+}
+#form-width {
+    width: 50%;
+}
+#form-width h1{
+    position: relative;
+}
+#form-id h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+
+}
+#form-id p{
+    color: rgba(79, 79, 79, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-sec form label {
+    color: rgba(79, 79, 79, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-sec form input{
+    width: 100%;
+    position: relative;
+    left: 75%;
+    bottom: 30px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 0.5);
+    border-radius: 5px;
+}
+.form-sec form input::placeholder{
+    color: rgba(156, 161, 158, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+.submit{
+    position: relative;
+    left: 135%;
+    top: -120px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 8px 40px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 1);
+    border-radius: 5px;
+    background-color: rgba(41, 134, 89, 1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+form .form-out button{
+    position: absolute;
+    left: 130%;
+    bottom: -5px;
+    padding: 8px 50px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 1);
+    border-radius: 5px;
+    background-color: rgba(41, 134, 89, 1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* ---------------------- */
+form .forget{
+    display: flex;
+    align-items: end;
+    position: relative;
+    left: 135%;
+    color: rgba(41, 134, 89, 1);
+    text-align: end;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+form .form-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 40px;
+    top: 20px;
+}
+form #top-form{
+    top: -30px;
+}
+form .form-out p {
+    display: flex;
+    align-items: center;
+    justify-self: space-around;
+    position: relative;
+    width: 100%;
+    color: rgba(156, 161, 158, 1);
+}
+form .form-out .remember{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(79, 79, 79, 1);
+    position: absolute;
+    left: 12px;
+    top: 50%;
+}
+.form-out #daily{
+    font-size: 12px;
+    position: absolute;
+    left: 4%;
+    bottom: 0%;
+}
+form .form-out .check{
+    position: relative;
+    margin-top: 20%;
+    margin-right: 70%;
+}
+.foot{
+    display:block ;
+    position: relative;
+    margin-top: 450px;
+    left: 10px;
+}
+.foot p {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(156, 161, 158, 1);
+}
+#foot-sec{
+    display: inline-block;
+    position: relative;
+    margin-bottom: -50%;
+    left: -10px;
+    top: -90px;
+}
+#foot-sec p{
+    position: relative;
+    top: 60%;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(156, 161, 158, 1);
+}
+.foot .google{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 1);
+    border-radius: 5px;
+    padding: 15px 50px;
+}
+.foot .google img{
+    width: 28px;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+.foot .google a{
+    color: rgba(79, 79, 79, 1);
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+/* --------------company login---------- */
+.company{
+    color: rgba(41, 134, 89, 1);
+}
+.paragraph h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.paragraph p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.company{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.companylogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+.Loginn{
+    width: 550px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid rgba(41, 134, 89, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.headline{
+    margin-top: 40px;
+}
+.headline h1{
+    color: rgba(41, 134, 89, 1);
+    font-size: 32px;
+    font-weight: 500;
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+.headline h1::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -10px;
+    width: 34%;
+    height: 4px;
+    background: rgba(41, 134, 89, 1);
+}
+.headline p{
+    color: rgba(79, 79, 79, 1);
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 24%;
+    left: 16%;
+}
+.heading .form1{
+    position: absolute;
+    width: 300px;
+    margin-top: 5%;
+}
+.form1 label{
+    color: rgba(79, 79, 79, 1);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+}
+.form1 #user{
+    position: absolute;
+    margin-left: 15%;
+}
+.form1 #pas{
+    position: relative;
+    left: -35%;
+    top: 50px;
+}
+.form1 input{
+    width: 50%;
+    display: inline;
+    position: relative;
+    padding: 8px 30px;
+    margin-bottom: 15px;
+    left: 40%;
+    bottom: 3px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 1);
+    border-radius: 5px;
+}
+.form1 input::placeholder{
+    color: rgba(156, 161, 158, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.headline .for{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.headline .for a{
+    position: absolute;
+    left: 64%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.headline .for .sub{
+    position: absolute;
+    width: 140px;
+    padding: 8px 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    left: 64%;
+    top: 30px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(41, 134, 89, 1);
+    border-radius: 5px;
+    background-color: rgba(41, 134, 89, 1);
+    color: #fff;
+    cursor: pointer;
+}
